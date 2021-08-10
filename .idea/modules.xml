@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Schiphalast-music-maker.iml" filepath="$PROJECT_DIR$/Schiphalast-music-maker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Schiphalast-chart-maker.iml" filepath="$PROJECT_DIR$/Schiphalast-chart-maker.iml" />
     </modules>
   </component>
 </project>

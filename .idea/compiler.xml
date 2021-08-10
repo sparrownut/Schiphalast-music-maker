@@ -16,11 +16,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Schiphalast-music-maker" />
+        <module name="Schiphalast-chart-maker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Schiphalast-music-maker" target="8" />
+      <module name="Schiphalast-chart-maker" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
