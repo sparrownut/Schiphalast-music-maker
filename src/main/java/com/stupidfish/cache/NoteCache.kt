@@ -1,31 +1,25 @@
 package com.stupidfish.cache
 
-import com.alibaba.fastjson.JSONObject
 import com.stupidfish.cache.NoteType.*
 
-class NoteCache {
+class NoteCache(typeF:NoteType,timeF:Int,BPMF:Int,yPosF:Int,endTF:Int,rsF:Int,rdF:Int) {
     /**
      * Note的存储类
      */
-    val type = N //Default
-    val time = 0
-    val BPM = 1
-    val yPos = 0
-    val endT = 0
-    val rs = 0
-    val rd = 0
-//    fun getNoteData() {
-//        val map = mapOf<NoteCache>()
-//        when(type){
-//            N -> {
-//            }
-//            NT -> TODO()
-//            F -> TODO()
-//            FR -> {
-//
-//            }
-//            H -> TODO()
-//        }
-//
-//    }
+    var type:NoteType
+    var time:Int
+    var BPM:Int
+    var yPos:Int
+    var endT:Int
+    var rs:Int
+    var rd:Int
+    init {
+        this.type = typeF
+        this.time = timeF
+        this.BPM = BPMF
+        this.yPos = yPosF
+        this.endT = endTF
+        this.rs = rsF
+        this.rd = rdF
+    }
 }
